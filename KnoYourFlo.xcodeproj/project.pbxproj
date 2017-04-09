@@ -12,6 +12,29 @@
 		DF0014EA1E9A500A00CE652A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0014E81E9A500A00CE652A /* Main.storyboard */; };
 		DF0014EC1E9A500A00CE652A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0014EB1E9A500A00CE652A /* Assets.xcassets */; };
 		DF0014EF1E9A500A00CE652A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0014ED1E9A500A00CE652A /* LaunchScreen.storyboard */; };
+		DF0015051E9A504C00CE652A /* ombre backgrounds  Tumblr copy.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014F61E9A504C00CE652A /* ombre backgrounds  Tumblr copy.png */; };
+		DF0015061E9A504C00CE652A /* ombre backgrounds  Tumblr.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014F71E9A504C00CE652A /* ombre backgrounds  Tumblr.png */; };
+		DF0015071E9A504C00CE652A /* pad_960x960.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014F81E9A504C00CE652A /* pad_960x960.png */; };
+		DF0015081E9A504C00CE652A /* Reproductive-system1-300x273 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014F91E9A504C00CE652A /* Reproductive-system1-300x273 (1).png */; };
+		DF0015091E9A504C00CE652A /* Reproductive-system1-300x273.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014FA1E9A504C00CE652A /* Reproductive-system1-300x273.png */; };
+		DF00150A1E9A504C00CE652A /* Screen Shot 2017-04-08 at 4.58.55 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014FB1E9A504C00CE652A /* Screen Shot 2017-04-08 at 4.58.55 PM.png */; };
+		DF00150B1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.11.16 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014FC1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.11.16 PM.png */; };
+		DF00150C1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.56.32 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014FD1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.56.32 PM.png */; };
+		DF00150D1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.02.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014FE1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.02.12 PM.png */; };
+		DF00150E1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.19.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0014FF1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.19.35 PM.png */; };
+		DF00150F1E9A504C00CE652A /* tampon-main-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF0015001E9A504C00CE652A /* tampon-main-image.jpg */; };
+		DF0015101E9A504C00CE652A /* tampon-with-applicator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF0015011E9A504C00CE652A /* tampon-with-applicator.jpg */; };
+		DF0015111E9A504C00CE652A /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0015021E9A504C00CE652A /* Untitled-1.png */; };
+		DF0015121E9A504C00CE652A /* vagina2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0015031E9A504C00CE652A /* vagina2 copy.png */; };
+		DF0015131E9A504C00CE652A /* vagina2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0015041E9A504C00CE652A /* vagina2.png */; };
+		DF0015181E9A505200CE652A /* 3061769.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF0015141E9A505200CE652A /* 3061769.jpeg */; };
+		DF0015191E9A505200CE652A /* 17857437_1886065711639979_2110211727_n.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0015151E9A505200CE652A /* 17857437_1886065711639979_2110211727_n.png */; };
+		DF00151B1E9A505200CE652A /* Fleurcup_and_tampons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF0015171E9A505200CE652A /* Fleurcup_and_tampons.jpg */; };
+		DF428CE31E9A8BFA00E438A1 /* sdf.png in Resources */ = {isa = PBXBuildFile; fileRef = DF428CE21E9A8BFA00E438A1 /* sdf.png */; };
+		DF428CE51E9A8D5900E438A1 /* 2asdf.png in Resources */ = {isa = PBXBuildFile; fileRef = DF428CE41E9A8D5900E438A1 /* 2asdf.png */; };
+		DF428CE71E9A8D8F00E438A1 /* asdf.png in Resources */ = {isa = PBXBuildFile; fileRef = DF428CE61E9A8D8F00E438A1 /* asdf.png */; };
+		DF428CE91E9A8DC700E438A1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF428CE81E9A8DC700E438A1 /* 2.png */; };
+		DF428CEB1E9A905400E438A1 /* kkjh in Resources */ = {isa = PBXBuildFile; fileRef = DF428CEA1E9A905400E438A1 /* kkjh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +45,29 @@
 		DF0014EB1E9A500A00CE652A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF0014EE1E9A500A00CE652A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF0014F01E9A500A00CE652A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0014F61E9A504C00CE652A /* ombre backgrounds  Tumblr copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ombre backgrounds  Tumblr copy.png"; path = "../ombre backgrounds  Tumblr copy.png"; sourceTree = "<group>"; };
+		DF0014F71E9A504C00CE652A /* ombre backgrounds  Tumblr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ombre backgrounds  Tumblr.png"; path = "../ombre backgrounds  Tumblr.png"; sourceTree = "<group>"; };
+		DF0014F81E9A504C00CE652A /* pad_960x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pad_960x960.png; path = ../pad_960x960.png; sourceTree = "<group>"; };
+		DF0014F91E9A504C00CE652A /* Reproductive-system1-300x273 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Reproductive-system1-300x273 (1).png"; path = "../Reproductive-system1-300x273 (1).png"; sourceTree = "<group>"; };
+		DF0014FA1E9A504C00CE652A /* Reproductive-system1-300x273.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Reproductive-system1-300x273.png"; path = "../Reproductive-system1-300x273.png"; sourceTree = "<group>"; };
+		DF0014FB1E9A504C00CE652A /* Screen Shot 2017-04-08 at 4.58.55 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-04-08 at 4.58.55 PM.png"; path = "../Screen Shot 2017-04-08 at 4.58.55 PM.png"; sourceTree = "<group>"; };
+		DF0014FC1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.11.16 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-04-08 at 10.11.16 PM.png"; path = "../Screen Shot 2017-04-08 at 10.11.16 PM.png"; sourceTree = "<group>"; };
+		DF0014FD1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.56.32 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-04-08 at 10.56.32 PM.png"; path = "../Screen Shot 2017-04-08 at 10.56.32 PM.png"; sourceTree = "<group>"; };
+		DF0014FE1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.02.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-04-08 at 11.02.12 PM.png"; path = "../Screen Shot 2017-04-08 at 11.02.12 PM.png"; sourceTree = "<group>"; };
+		DF0014FF1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.19.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-04-08 at 11.19.35 PM.png"; path = "../Screen Shot 2017-04-08 at 11.19.35 PM.png"; sourceTree = "<group>"; };
+		DF0015001E9A504C00CE652A /* tampon-main-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tampon-main-image.jpg"; path = "../tampon-main-image.jpg"; sourceTree = "<group>"; };
+		DF0015011E9A504C00CE652A /* tampon-with-applicator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tampon-with-applicator.jpg"; path = "../tampon-with-applicator.jpg"; sourceTree = "<group>"; };
+		DF0015021E9A504C00CE652A /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-1.png"; path = "../Untitled-1.png"; sourceTree = "<group>"; };
+		DF0015031E9A504C00CE652A /* vagina2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vagina2 copy.png"; path = "../vagina2 copy.png"; sourceTree = "<group>"; };
+		DF0015041E9A504C00CE652A /* vagina2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vagina2.png; path = ../vagina2.png; sourceTree = "<group>"; };
+		DF0015141E9A505200CE652A /* 3061769.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3061769.jpeg; path = ../3061769.jpeg; sourceTree = "<group>"; };
+		DF0015151E9A505200CE652A /* 17857437_1886065711639979_2110211727_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 17857437_1886065711639979_2110211727_n.png; path = ../17857437_1886065711639979_2110211727_n.png; sourceTree = "<group>"; };
+		DF0015171E9A505200CE652A /* Fleurcup_and_tampons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fleurcup_and_tampons.jpg; path = ../Fleurcup_and_tampons.jpg; sourceTree = "<group>"; };
+		DF428CE21E9A8BFA00E438A1 /* sdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sdf.png; path = ../sdf.png; sourceTree = "<group>"; };
+		DF428CE41E9A8D5900E438A1 /* 2asdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2asdf.png; path = ../2asdf.png; sourceTree = "<group>"; };
+		DF428CE61E9A8D8F00E438A1 /* asdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asdf.png; path = ../asdf.png; sourceTree = "<group>"; };
+		DF428CE81E9A8DC700E438A1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../2.png; sourceTree = "<group>"; };
+		DF428CEA1E9A905400E438A1 /* kkjh */ = {isa = PBXFileReference; lastKnownFileType = file; name = kkjh; path = ../kkjh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +84,29 @@
 		DF0014D81E9A500A00CE652A = {
 			isa = PBXGroup;
 			children = (
+				DF428CE81E9A8DC700E438A1 /* 2.png */,
+				DF428CE61E9A8D8F00E438A1 /* asdf.png */,
+				DF428CE41E9A8D5900E438A1 /* 2asdf.png */,
+				DF428CE21E9A8BFA00E438A1 /* sdf.png */,
+				DF0015141E9A505200CE652A /* 3061769.jpeg */,
+				DF0015151E9A505200CE652A /* 17857437_1886065711639979_2110211727_n.png */,
+				DF0015171E9A505200CE652A /* Fleurcup_and_tampons.jpg */,
+				DF0014F61E9A504C00CE652A /* ombre backgrounds  Tumblr copy.png */,
+				DF0014F71E9A504C00CE652A /* ombre backgrounds  Tumblr.png */,
+				DF0014F81E9A504C00CE652A /* pad_960x960.png */,
+				DF0014F91E9A504C00CE652A /* Reproductive-system1-300x273 (1).png */,
+				DF0014FA1E9A504C00CE652A /* Reproductive-system1-300x273.png */,
+				DF0014FB1E9A504C00CE652A /* Screen Shot 2017-04-08 at 4.58.55 PM.png */,
+				DF0014FC1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.11.16 PM.png */,
+				DF428CEA1E9A905400E438A1 /* kkjh */,
+				DF0014FD1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.56.32 PM.png */,
+				DF0014FE1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.02.12 PM.png */,
+				DF0014FF1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.19.35 PM.png */,
+				DF0015001E9A504C00CE652A /* tampon-main-image.jpg */,
+				DF0015011E9A504C00CE652A /* tampon-with-applicator.jpg */,
+				DF0015021E9A504C00CE652A /* Untitled-1.png */,
+				DF0015031E9A504C00CE652A /* vagina2 copy.png */,
+				DF0015041E9A504C00CE652A /* vagina2.png */,
 				DF0014E31E9A500A00CE652A /* KnoYourFlo */,
 				DF0014E21E9A500A00CE652A /* Products */,
 			);
@@ -124,9 +193,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF428CE91E9A8DC700E438A1 /* 2.png in Resources */,
 				DF0014EF1E9A500A00CE652A /* LaunchScreen.storyboard in Resources */,
+				DF0015101E9A504C00CE652A /* tampon-with-applicator.jpg in Resources */,
 				DF0014EC1E9A500A00CE652A /* Assets.xcassets in Resources */,
+				DF00150C1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.56.32 PM.png in Resources */,
+				DF00150B1E9A504C00CE652A /* Screen Shot 2017-04-08 at 10.11.16 PM.png in Resources */,
+				DF00150A1E9A504C00CE652A /* Screen Shot 2017-04-08 at 4.58.55 PM.png in Resources */,
+				DF0015051E9A504C00CE652A /* ombre backgrounds  Tumblr copy.png in Resources */,
+				DF0015181E9A505200CE652A /* 3061769.jpeg in Resources */,
+				DF0015081E9A504C00CE652A /* Reproductive-system1-300x273 (1).png in Resources */,
+				DF0015131E9A504C00CE652A /* vagina2.png in Resources */,
+				DF0015111E9A504C00CE652A /* Untitled-1.png in Resources */,
+				DF428CE51E9A8D5900E438A1 /* 2asdf.png in Resources */,
+				DF0015091E9A504C00CE652A /* Reproductive-system1-300x273.png in Resources */,
+				DF0015191E9A505200CE652A /* 17857437_1886065711639979_2110211727_n.png in Resources */,
+				DF0015061E9A504C00CE652A /* ombre backgrounds  Tumblr.png in Resources */,
+				DF00150F1E9A504C00CE652A /* tampon-main-image.jpg in Resources */,
+				DF0015071E9A504C00CE652A /* pad_960x960.png in Resources */,
+				DF428CE31E9A8BFA00E438A1 /* sdf.png in Resources */,
+				DF428CEB1E9A905400E438A1 /* kkjh in Resources */,
 				DF0014EA1E9A500A00CE652A /* Main.storyboard in Resources */,
+				DF00151B1E9A505200CE652A /* Fleurcup_and_tampons.jpg in Resources */,
+				DF428CE71E9A8D8F00E438A1 /* asdf.png in Resources */,
+				DF00150E1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.19.35 PM.png in Resources */,
+				DF0015121E9A504C00CE652A /* vagina2 copy.png in Resources */,
+				DF00150D1E9A504C00CE652A /* Screen Shot 2017-04-08 at 11.02.12 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +394,7 @@
 				DF0014F51E9A500A00CE652A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

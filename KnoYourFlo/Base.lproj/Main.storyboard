@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KnoYourFlo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,787 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ombre backgrounds  Tumblr copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="rxo-dg-Jc0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.79847552450000003" green="0.95869685910000002" blue="0.89218091379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f4-9E-cNS">
+                                <rect key="frame" x="50" y="12" width="177" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">KNOW
+YOUR
+FLOW</string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="52"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcP-Ju-7uP">
+                                <rect key="frame" x="99" y="333" width="177" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95869685910000002" green="0.54690690239999995" blue="0.65432975869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="20"/>
+                                <color key="tintColor" red="1" green="0.7809414268" blue="0.9038285613" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="General Information">
+                                    <color key="titleColor" red="0.99892880049999999" green="1" blue="0.97214651839999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ePr-Ak-Dqc" kind="modal" id="O0Y-S0-uqd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF8-KB-s3c">
+                                <rect key="frame" x="99" y="402" width="177" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95654624700000002" green="0.54440098999999997" blue="0.65308839080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="20"/>
+                                <state key="normal" title="Pick your products">
+                                    <color key="titleColor" red="0.99997490639999997" green="1" blue="0.97128063440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dF0-Eu-axL" kind="modal" id="Lsr-cn-4Y6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kkjh" translatesAutoresizingMaskIntoConstraints="NO" id="bXZ-0D-U3S">
+                                <rect key="frame" x="214" y="119" width="136" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4re-UO-Zd1">
+                                <rect key="frame" x="99" y="469" width="177" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95654624700000002" green="0.54440098999999997" blue="0.65308839080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="20"/>
+                                <state key="normal" title="Period Tracker">
+                                    <color key="titleColor" red="0.99997490639999997" green="1" blue="0.97128063440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="V6t-BH-cwY" kind="modal" id="Trg-rl-ypd"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Image © Amanda Ilkov Etsy" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MLn-Xr-h3H">
+                                <rect key="frame" x="8" y="637" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.95654624700000002" green="0.54440098999999997" blue="0.65308839080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="207.19999999999999" y="135.38230884557723"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="srU-YU-eWt">
+            <objects>
+                <viewController id="ePr-Ak-Dqc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="28i-x3-HaU"/>
+                        <viewControllerLayoutGuide type="bottom" id="1hV-Ea-dY9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dls-xj-6YE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zDR-Rx-shU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zep-f2-HHm">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ombre backgrounds  Tumblr copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="ee0-Oy-RMD">
+                                                <rect key="frame" x="-3" y="-26" width="381" height="1226"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wG6-o5-XfQ">
+                                                <rect key="frame" x="28" y="456" width="334" height="427"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Menstrual cycle begins from day 1 of your period and ends the day before your next.
+Cycles are typically around 30 days long. They vary, especially in adolescence, or with stress, extreme emotion, physical exercise, or weight change.
+
+Follicular Phase: 10-20 follicles develop in ovary, or cells that contain immature eggs. The uterus lining thickens in preparation for possible fertilization of an egg. One egg becomes mature, while the others are broken down and reabsorbed. Menstruation to ovulation.
+
+Ovulation: Mature egg is released and travels through the fallopian tube and to the uterus. The egg disintegrates if not fertilized.
+
+Luteal Phase: 12-16 days. Further thickening of uterus lining. Women may experience physical and emotional changes, commonly known as PMS or Pre-Menstrual Syndrome. Symptoms include: Mood swings, tiredness, bloating, tender and swollen breasts, headaches, etc. 
+
+Menstruation: AKA the “period.” Typically 3-7 days. Occurs when broken down uterus lining exits out the vagina. Blood can vary in color, from bright red to dark brown. </string>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Reproductive-system1-300x273.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y22-Jt-THd">
+                                                <rect key="frame" x="60" y="265" width="270" height="169"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="General Information" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwz-3W-2ID">
+                                                <rect key="frame" x="24" y="26" width="343" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
+                                                <color key="textColor" red="1" green="0.99178192759999995" blue="0.9983853197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2017-04-08 at 11.19.35 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZPV-K5-ITS">
+                                                <rect key="frame" x="67" y="906" width="240" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© Diva Cup, Women's Health" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g9W-Vk-Tn5">
+                                                <rect key="frame" x="67" y="1060" width="171" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.86119923860000003" green="0.4923977625" blue="0.59040918819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkG-Wd-PEU">
+                                                <rect key="frame" x="132" y="1122" width="110" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                <state key="normal" title="Homepage">
+                                                    <color key="titleColor" red="0.95261532069999999" green="0.54047173260000003" blue="0.64915937189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="modal" id="J0d-1B-6dz"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vagina2.png" translatesAutoresizingMaskIntoConstraints="NO" id="LHj-fO-zzT">
+                                                <rect key="frame" x="50" y="92" width="275" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="23N-ct-0jJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zep-f2-HHm" secondAttribute="bottom" id="CoY-cd-zsL"/>
+                                    <constraint firstItem="zep-f2-HHm" firstAttribute="leading" secondItem="zDR-Rx-shU" secondAttribute="leading" id="WET-Ss-0e8"/>
+                                    <constraint firstAttribute="trailing" secondItem="zep-f2-HHm" secondAttribute="trailing" id="hDW-RK-7JF"/>
+                                    <constraint firstItem="zep-f2-HHm" firstAttribute="top" secondItem="zDR-Rx-shU" secondAttribute="top" id="ka0-Sr-Lnk"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1hV-Ea-dY9" firstAttribute="top" secondItem="zDR-Rx-shU" secondAttribute="bottom" id="NMY-cA-BzX"/>
+                            <constraint firstItem="zep-f2-HHm" firstAttribute="width" secondItem="dls-xj-6YE" secondAttribute="width" id="Y2a-0V-z0J"/>
+                            <constraint firstItem="zDR-Rx-shU" firstAttribute="leading" secondItem="dls-xj-6YE" secondAttribute="leading" id="epw-YG-QRT"/>
+                            <constraint firstAttribute="trailing" secondItem="zDR-Rx-shU" secondAttribute="trailing" id="iMn-0S-Aoe"/>
+                            <constraint firstItem="zDR-Rx-shU" firstAttribute="top" secondItem="28i-x3-HaU" secondAttribute="bottom" id="vCL-o4-E5F"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CZt-aQ-v9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885.60000000000002" y="-916.64167916041981"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="q0x-yB-Uhs">
+            <objects>
+                <viewController id="Qgj-is-43J" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hoI-6U-0pR"/>
+                        <viewControllerLayoutGuide type="bottom" id="M5U-ok-WAy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kCH-Cf-apM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zhd-32-5vM">
+                                <rect key="frame" x="0.0" y="20" width="375" height="930"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8G-dB-kOu">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ombre backgrounds  Tumblr copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="K9h-0C-H5h">
+                                                <rect key="frame" x="-6" y="-16" width="381" height="1216"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftu-Md-WRw">
+                                                <rect key="frame" x="166" y="589" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3061769.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4X8-cs-HzN">
+                                                <rect key="frame" x="53" y="96" width="288" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pads" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6L-c1-aqs">
+                                                <rect key="frame" x="-6" y="37" width="381" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
+                                                <color key="textColor" red="1" green="0.99662572149999995" blue="0.96731120349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bIE-eo-F52">
+                                                <rect key="frame" x="18" y="298" width="339" height="577"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <string key="text">This is a pad. There are three main variations: regular/thin, overnight/long, and panty liners. Regular/thin pads are used when the flow is normal. Most people generally use regular/thin pads during the day. Overnight/long pads are often used for the night and/or the month of heavy flow. Pany liners are typically used near the end of a cycle, where the flow is light. 
+
+How to put it on: There are two main cases: a winged pad and a non-winged pad. 
+
+You have to first remove the wrapper and then open the folded pad flat. You will see a wax paper attached to the cotton-like pad so you must remove it to access the adhesive portion. In a winged-pad, there are additional paper attached to the wings, so you must also remove that.
+
+Lay your underwear flat and attach the adhesive portion of the pad. For the wings, you need to wrap or “hug” your underwear. Make sure the center of the pad is directly towards your opening because the center absorbs the most fluid. 
+
+Taking it out: While there are certainly different ways to dispose of your used pad. One tip is to roll the pad and wrap it in toilet paper. Never dispose of the pad in the toilet. You must use the trash.</string>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSJ-VI-dPh">
+                                                <rect key="frame" x="129" y="883" width="110" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.95261532069999999" green="0.54047173260000003" blue="0.64915937189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="dF0-Eu-axL" kind="modal" id="enT-MU-g94"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© Becoming a Girl blog" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Hl-h0-a78">
+                                                <rect key="frame" x="53" y="260" width="171" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.86119923860000003" green="0.4923977625" blue="0.59040918819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="950" id="Agj-eN-hYL"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="p8G-dB-kOu" secondAttribute="trailing" id="L87-SS-Onp"/>
+                                    <constraint firstItem="p8G-dB-kOu" firstAttribute="top" secondItem="Zhd-32-5vM" secondAttribute="top" id="Qia-lv-b2v"/>
+                                    <constraint firstAttribute="bottom" secondItem="p8G-dB-kOu" secondAttribute="bottom" id="h5r-t4-lu5"/>
+                                    <constraint firstItem="p8G-dB-kOu" firstAttribute="leading" secondItem="Zhd-32-5vM" secondAttribute="leading" id="hRw-2L-s3o"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zhd-32-5vM" firstAttribute="top" secondItem="hoI-6U-0pR" secondAttribute="bottom" id="16T-tw-lNo"/>
+                            <constraint firstItem="Zhd-32-5vM" firstAttribute="leading" secondItem="kCH-Cf-apM" secondAttribute="leading" id="Ii6-2R-gh2"/>
+                            <constraint firstItem="p8G-dB-kOu" firstAttribute="width" secondItem="kCH-Cf-apM" secondAttribute="width" id="MLr-SH-a6v"/>
+                            <constraint firstItem="M5U-ok-WAy" firstAttribute="top" secondItem="Zhd-32-5vM" secondAttribute="bottom" id="QYA-X9-FYQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Zhd-32-5vM" secondAttribute="trailing" id="ZR2-y1-HRP"/>
+                            <constraint firstItem="p8G-dB-kOu" firstAttribute="width" secondItem="kCH-Cf-apM" secondAttribute="width" id="dq9-95-yYv"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="950"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LDU-J1-isa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1628" y="165.51724137931035"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pk1-3Y-sXC">
+            <objects>
+                <viewController id="DzQ-W9-jN6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lgR-5w-dv5"/>
+                        <viewControllerLayoutGuide type="bottom" id="yzn-ee-H7K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hGx-MF-Af4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w7w-O3-kcu">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1180"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4dJ-Nl-ivI">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ombre backgrounds  Tumblr copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="s4O-iQ-c9b">
+                                                <rect key="frame" x="-2" y="-12" width="378" height="1212"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Tampons consist of an typically plastic/cardboard applicator and a cotton absorber inside." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8m-FA-V3W">
+                                                <rect key="frame" x="16" y="386" width="343" height="48"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2017-04-08 at 10.11.16 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="TQg-va-SE5">
+                                                <rect key="frame" x="86" y="204" width="202" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tampon-main-image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eDJ-wx-AiH">
+                                                <rect key="frame" x="67" y="457" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tampons" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yi5-t3-SQX">
+                                                <rect key="frame" x="16" y="30" width="343" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
+                                                <color key="textColor" red="0.97608052122333655" green="1" blue="0.96798947458038265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnY-yO-s1f">
+                                                <rect key="frame" x="16" y="623" width="343" height="510"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                <string key="text">Before inserting a tampon, be sure to clean your hands well.
+You’ll want to find a comfortable position on the toilet, with your labia easy to access. A good position to try out is with your legs spread and vagina relaxed.
+
+Start by gripping the applicator at the textured lines, and push to the base of your labia. This should not hurt, and should slide in smoothly.
+
+Then, push the plunger fully up, gently, to release the tampon.
+Grab the base of the applicator and pull it out.
+A string should be left hanging outside.
+Some people like to wear a light liner in case of leakage.
+
+To remove: Find your comfortable position again and gently pull the tampon out by the string.
+
+From a biological viewpoint, the tampon application goes up the vagina, past the flap of the cervix, and into the uterus. When fully inserted, the tampon cotton should be in the uterus and resting on the cervix.
+
+Tampons should be replaced at a minimum of 8 hours. </string>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© Playtex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rod-xY-Lmh">
+                                                <rect key="frame" x="86" y="348" width="171" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.86119923860000003" green="0.4923977625" blue="0.59040918819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6f-rq-5Cf">
+                                                <rect key="frame" x="16" y="105" width="343" height="125"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                <string key="text">You can use tampons too! Tampons reduce mess, but have a more complex application process. Tampons are great for higher activity, like exercising.</string>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-bC-cii">
+                                                <rect key="frame" x="0.0" y="1129" width="375" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.95261532069999999" green="0.54047173260000003" blue="0.64915937189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="dF0-Eu-axL" kind="modal" id="FL3-sx-xpz"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© Political Dog 101 Blog" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hJC-ij-ggK">
+                                                <rect key="frame" x="67" y="585" width="171" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.86119923860000003" green="0.4923977625" blue="0.59040918819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="5N3-Hg-BhM"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4dJ-Nl-ivI" firstAttribute="leading" secondItem="w7w-O3-kcu" secondAttribute="leading" id="4V5-OM-bxj"/>
+                                    <constraint firstItem="4dJ-Nl-ivI" firstAttribute="top" secondItem="w7w-O3-kcu" secondAttribute="top" id="LKf-Pt-n4a"/>
+                                    <constraint firstAttribute="bottom" secondItem="4dJ-Nl-ivI" secondAttribute="bottom" id="e7K-9V-pMO"/>
+                                    <constraint firstAttribute="trailing" secondItem="4dJ-Nl-ivI" secondAttribute="trailing" id="j3z-4t-bu8"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w7w-O3-kcu" firstAttribute="leading" secondItem="hGx-MF-Af4" secondAttribute="leading" id="Z9U-xJ-r3u"/>
+                            <constraint firstItem="yzn-ee-H7K" firstAttribute="top" secondItem="w7w-O3-kcu" secondAttribute="bottom" id="c3I-gm-hUa"/>
+                            <constraint firstItem="w7w-O3-kcu" firstAttribute="top" secondItem="lgR-5w-dv5" secondAttribute="bottom" id="fjd-Vi-0u7"/>
+                            <constraint firstAttribute="trailing" secondItem="w7w-O3-kcu" secondAttribute="trailing" id="jig-xm-Y5L"/>
+                            <constraint firstItem="4dJ-Nl-ivI" firstAttribute="width" secondItem="hGx-MF-Af4" secondAttribute="width" id="uFd-Fb-5aZ"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yn1-S0-by5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2269.5999999999999" y="165.51724137931035"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4i6-cM-9Ei">
+            <objects>
+                <viewController id="ukj-8U-uoL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SFj-Gp-TRp"/>
+                        <viewControllerLayoutGuide type="bottom" id="LoR-9C-weT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q2J-cZ-f4b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6z-Tm-2Xi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="830"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="05c-J6-thM">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="850"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ombre backgrounds  Tumblr copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="9rb-LH-PQr">
+                                                <rect key="frame" x="0.0" y="8" width="381" height="1200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.) U Fold: &quot;Press the sides of the cup together and then fold it in half again forming a tight 'U' shape&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ZW-jG-yfg">
+                                                <rect key="frame" x="113" y="508" width="239" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© Thank Your Body Blog" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wTn-a2-Y6X">
+                                                <rect key="frame" x="94" y="352" width="171" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.86119923860000003" green="0.4923977625" blue="0.59040918819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2017-04-08 at 10.56.32 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-Br-p4U">
+                                                <rect key="frame" x="93" y="249" width="171" height="112"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBJ-Xx-LqI">
+                                                <rect key="frame" x="15" y="687" width="329" height="66"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">For removal: Grab the nib and gently pull until you can get a solid grip on the base. Pull out. Remove the contents in the toilet, and rinse cup with water and mild, unscented water-based soap.</string>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menstrual Cups" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd1-md-ySx">
+                                                <rect key="frame" x="19" y="27" width="343" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
+                                                <color key="textColor" red="0.99413740599202083" green="0.99928778409999997" blue="0.99193211135654691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stb-wZ-I5c">
+                                                <rect key="frame" x="23" y="390" width="329" height="111"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">To insert: As with a tampon, clean your hands and find a comfortable position. 
+There are two ways to insert: Gently open labia and insert folded menstrual cup. Insert so the stem of the cup is no further than in ½” into the vagina.</string>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© Diva Cup" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C4g-Ya-Tfw">
+                                                <rect key="frame" x="37" y="651" width="171" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.86119923860000003" green="0.4923977625" blue="0.59040918819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxi-gn-yql">
+                                                <rect key="frame" x="127" y="766" width="110" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.95261532069999999" green="0.54047173260000003" blue="0.64915937189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="dF0-Eu-axL" kind="modal" id="fU8-Xa-wR0"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© Ingrid Nilsen" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LC1-7L-Ks4">
+                                                <rect key="frame" x="8" y="801" width="171" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.86119923860000003" green="0.4923977625" blue="0.59040918819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf9-J1-AO4">
+                                                <rect key="frame" x="113" y="585" width="236" height="77"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">2.) Push Down: "Place a finger on the top rim of the cup and press it down into the center of the inside base to form a triangle."</string>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2asdf.png" translatesAutoresizingMaskIntoConstraints="NO" id="MUN-YH-ClT">
+                                                <rect key="frame" x="8" y="585" width="89" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="4kD-7B-TLl">
+                                                <rect key="frame" x="19" y="508" width="86" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azt-Ts-IjP">
+                                                <rect key="frame" x="10" y="89" width="339" height="152"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The third popular option in a menstrual cup. Menstrual cups are a great option for reusability, as they can last for up to 10 years. They can hold for up to 12 hours, are less likely to leak, and prevent odor (Odor develops when exposed to air). Additionally, they allow you to measure the amount of blood you lose, and learn more about your body.
+
+However, the application process is perhaps the most extensive of the three, and requires that you be comfortable with inserting the cup, sometimes with your fingers.
+</string>
+                                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="850" id="Tt2-r6-hxG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="05c-J6-thM" secondAttribute="trailing" id="CEW-9w-NkC"/>
+                                    <constraint firstItem="05c-J6-thM" firstAttribute="leading" secondItem="F6z-Tm-2Xi" secondAttribute="leading" id="Jjn-Eo-sGK"/>
+                                    <constraint firstAttribute="trailing" secondItem="05c-J6-thM" secondAttribute="trailing" id="Nte-oS-JzQ"/>
+                                    <constraint firstItem="05c-J6-thM" firstAttribute="top" secondItem="F6z-Tm-2Xi" secondAttribute="top" id="O20-Vs-Wvz"/>
+                                    <constraint firstAttribute="bottom" secondItem="05c-J6-thM" secondAttribute="bottom" id="gYb-HY-QyJ"/>
+                                    <constraint firstItem="05c-J6-thM" firstAttribute="top" secondItem="F6z-Tm-2Xi" secondAttribute="top" id="hi9-UC-0nC"/>
+                                    <constraint firstItem="05c-J6-thM" firstAttribute="leading" secondItem="F6z-Tm-2Xi" secondAttribute="leading" id="mUV-BO-oya"/>
+                                    <constraint firstAttribute="bottom" secondItem="05c-J6-thM" secondAttribute="bottom" id="oED-1a-Z9e"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="05c-J6-thM" firstAttribute="width" secondItem="Q2J-cZ-f4b" secondAttribute="width" id="Kn5-Li-sCs"/>
+                            <constraint firstItem="F6z-Tm-2Xi" firstAttribute="leading" secondItem="Q2J-cZ-f4b" secondAttribute="leading" id="UJa-eB-9sD"/>
+                            <constraint firstItem="F6z-Tm-2Xi" firstAttribute="top" secondItem="SFj-Gp-TRp" secondAttribute="bottom" id="bPq-0q-N5a"/>
+                            <constraint firstItem="LoR-9C-weT" firstAttribute="top" secondItem="F6z-Tm-2Xi" secondAttribute="bottom" id="pCR-hv-WCh"/>
+                            <constraint firstAttribute="trailing" secondItem="F6z-Tm-2Xi" secondAttribute="trailing" id="tym-7N-Tdh"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="850"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p7P-ZD-7LR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2941.5999999999999" y="165.51724137931035"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gBP-ra-H4T">
+            <objects>
+                <viewController id="dF0-Eu-axL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Phk-DB-G7v"/>
+                        <viewControllerLayoutGuide type="bottom" id="3MG-EP-NAJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bRl-nn-rmo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ombre backgrounds  Tumblr copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="yVI-hT-S3H">
+                                <rect key="frame" x="0.0" y="-8" width="381" height="675"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Your Product" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob1-Ig-5nd">
+                                <rect key="frame" x="19" y="54" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
+                                <color key="textColor" red="0.97600693599999999" green="0.97274446370000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-6p-4Ic">
+                                <rect key="frame" x="132" y="600" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="Homepage">
+                                    <color key="titleColor" red="0.95261532069999999" green="0.54047173260000003" blue="0.64915937189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="yx9-UB-3IH"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tampon-with-applicator.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wJ8-ao-jc0">
+                                <rect key="frame" x="194" y="300" width="98" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2017-04-08 at 4.58.55 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ye8-qG-4zt">
+                                <rect key="frame" x="194" y="425" width="129" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© WendyLimWendy blog" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6jF-Xm-D3Q">
+                                <rect key="frame" x="194" y="387" width="181" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.95869685910000002" green="0.54690690239999995" blue="0.65432975869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© slate" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="dC4-kc-mJL">
+                                <rect key="frame" x="194" y="511" width="54" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.95869685910000002" green="0.54690690239999995" blue="0.65432975869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pad_960x960.png" translatesAutoresizingMaskIntoConstraints="NO" id="GOV-kG-CG8">
+                                <rect key="frame" x="192" y="178" width="102" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-Gr-4wD">
+                                <rect key="frame" x="33" y="330" width="138" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95654624700000002" green="0.54440098999999997" blue="0.65308839080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="20"/>
+                                <state key="normal" title="Tampon">
+                                    <color key="titleColor" red="0.99997490639999997" green="1" blue="0.97128063440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DzQ-W9-jN6" kind="modal" id="yaE-D1-wTi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqr-Ue-x8d">
+                                <rect key="frame" x="33" y="456" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95654624700000002" green="0.54440098999999997" blue="0.65308839080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="20"/>
+                                <state key="normal" title="Menstrual Cup">
+                                    <color key="titleColor" red="1" green="0.99662572149999995" blue="0.96731120349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ukj-8U-uoL" kind="modal" id="Wfj-Gd-RtG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9W-Fa-8nz">
+                                <rect key="frame" x="33" y="219" width="138" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95654624700000002" green="0.54440098999999997" blue="0.65308839080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="20"/>
+                                <state key="normal" title="Pads">
+                                    <color key="titleColor" red="0.97600693599999999" green="0.97274446370000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Qgj-is-43J" kind="modal" id="enQ-ni-ZW0"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="There are three common period products: " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0KY-xL-LH7">
+                                <rect key="frame" x="0.0" y="107" width="375" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="© always" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2K4-MV-5Ok">
+                                <rect key="frame" x="194" y="256" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.95654624700000002" green="0.54440098999999997" blue="0.65308839080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NUR-hh-BmD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885.60000000000002" y="136.28185907046478"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="puq-Mo-5t8">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="V6t-BH-cwY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y0Z-NQ-tHL"/>
+                        <viewControllerLayoutGuide type="bottom" id="wM8-pU-qLS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tzX-uD-ACW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ombre backgrounds  Tumblr copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="jmm-n6-neQ">
+                                <rect key="frame" x="-3" y="-4" width="381" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzf-7j-d4F">
+                                <rect key="frame" x="65" y="44" width="244" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Period Tracker">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcw-47-ZfE">
+                                <rect key="frame" x="16" y="377" width="336" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.996482221926562" green="1" blue="0.98571153022948388" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Tip: Pack a "period prep" bag when you're anticipating your period. Include your choice of feminine product, wipes (in case there is no toilet paper), hand sanitizer, an extra pair of underwear, and/or Advil.</string>
+                                <color key="textColor" red="0.8381485960205195" green="0.17294050538298289" blue="0.19075138240902484" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yS-wP-8XJ">
+                                <rect key="frame" x="16" y="132" width="344" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Keep track of your periods! Here is a template to start: 
+First day of menstruation
+Last day of menstruation
+Length of menstruation
+Length of menstrual cycle
+Any unique symptoms
+</string>
+                                <color key="textColor" red="0.80064244920000005" green="0.22128890139999999" blue="0.247943938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7f-Vk-5Bz">
+                                <rect key="frame" x="129" y="589" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="Homepage">
+                                    <color key="titleColor" red="0.95261532069999999" green="0.54047173260000003" blue="0.64915937189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="bdx-ha-hdn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XcS-WY-daE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885.60000000000002" y="926.98650674662679"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="2.png" width="153" height="161"/>
+        <image name="2asdf.png" width="160" height="146"/>
+        <image name="3061769.jpeg" width="406" height="298"/>
+        <image name="Reproductive-system1-300x273.png" width="300" height="273"/>
+        <image name="Screen Shot 2017-04-08 at 10.11.16 PM.png" width="622" height="446"/>
+        <image name="Screen Shot 2017-04-08 at 10.56.32 PM.png" width="670" height="526"/>
+        <image name="Screen Shot 2017-04-08 at 11.19.35 PM.png" width="778" height="588"/>
+        <image name="Screen Shot 2017-04-08 at 4.58.55 PM.png" width="794" height="686"/>
+        <image name="kkjh" width="682" height="682"/>
+        <image name="ombre backgrounds  Tumblr copy.png" width="500" height="388"/>
+        <image name="pad_960x960.png" width="450" height="450"/>
+        <image name="tampon-main-image.jpg" width="640" height="358"/>
+        <image name="tampon-with-applicator.jpg" width="616" height="800"/>
+        <image name="vagina2.png" width="352" height="267"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="J0d-1B-6dz"/>
+        <segue reference="Lsr-cn-4Y6"/>
+    </inferredMetricsTieBreakers>
 </document>
